@@ -85,7 +85,7 @@
 &lt 1 CAPSLOCK  &lt 2 F7  &lt 3 SPACE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND         &kp BACKSPACE  &lt 4 ENTER                             &kp LS(LG(NUMBER_4))
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
         };
 
         NUMBER+SYMBOL {
