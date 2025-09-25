@@ -25,7 +25,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <23 24>;
+        };
+
+        redo {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <12 11>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
