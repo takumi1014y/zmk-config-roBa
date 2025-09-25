@@ -25,14 +25,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -73,7 +66,7 @@
 &kp EXCLAMATION       &kp DOUBLE_QUOTES      &kp HASH          &kp DOLLAR         &kp PERCENT                                        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp PLUS
 &kp AT                &kp AMPERSAND          &kp QUESTION      &kp CARET          &kp PIPE        &trans               &kp ASTERISK  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp MINUS
 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp SLASH     &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &kp EQUAL
-&kp UNDERSCORE        &kp TILDE              &kp SEMICOLON     &trans             &trans          &trans               &trans        &trans                                                              &kp COLON
+&kp UNDERSCORE        &kp TILDE              &kp SEMICOLON     &trans             &trans          &kp TAB              &trans        &trans                                                              &kp COLON
             >;
         };
 
