@@ -80,7 +80,7 @@
 &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 CAPSLOCK  &lt 3 SPACE      &kp BACKSPACE  &lt 4 ENTER                             &kp COLON
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         NUMBER+SYMBOL {
@@ -109,7 +109,7 @@
 &trans  &trans           &trans          &trans          &trans  &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
         };
 
         layer_4 {
