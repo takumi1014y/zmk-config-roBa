@@ -103,10 +103,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans           &msc SCRL_DOWN  &trans          &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_LEFT  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans          &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans          &trans          &trans  &trans      &trans  &trans                          &trans
+&trans  &trans           &msc SCRL_DOWN  &trans          &trans                                   &trans  &trans  &trans  &trans  &trans
+&trans  &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_LEFT  &trans  &kp LG(KP_NUMBER_0)      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans          &trans          &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans          &trans          &trans  &trans                   &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
