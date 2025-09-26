@@ -25,29 +25,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        undo {
-            bindings = <&kp LG(Z)>;
-            key-positions = <23 24>;
-        };
-
-        redo {
-            bindings = <&kp LG(LS(Z))>;
-            key-positions = <12 11>;
-        };
-
-        go {
-            bindings = <&kp LG(RIGHT_BRACKET)>;
-            key-positions = <11 10>;
-        };
-
-        back {
-            bindings = <&kp LG(LEFT_BRACKET)>;
-            key-positions = <22 23>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -112,10 +90,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3              &mkp MB3               &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB3              &mkp MB5               &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                         &trans
+&trans  &trans          &kp UP_ARROW  &trans           &trans                      &trans  &trans    &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &trans
+&trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3              &mkp MB3               &trans
+&trans  &trans          &trans        &trans           &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB3              &mkp MB5               &trans
+&trans  &trans          &trans        &trans           &trans  &trans      &trans  &trans                                                         &trans
             >;
         };
     };
