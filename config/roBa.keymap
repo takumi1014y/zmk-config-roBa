@@ -75,7 +75,7 @@
         default_layer {
             bindings = <
 &kp Q      &kp W      &kp E         &kp R             &kp T                                           &kp Y      &kp U  &kp I     &kp O     &kp P
-&kp A      &kp S      &kp D         &kp F             &kp G           &kp ESCAPE       &kp ASTERISK   &kp H      &kp J  &kp K     &kp L     &kp MINUS
+&kp A      &kp S      &kp D         &kp F             &kp G           &kp ESCAPE       &kp SQT        &kp H      &kp J  &kp K     &kp L     &kp MINUS
 &kp Z      &kp X      &kp C         &kp V             &kp B           &lt 1 F7         &kp SLASH      &kp N      &kp M  &mkp MB1  &mkp MB2  &kp EQUAL
 &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 CAPSLOCK  &lt 3 SPACE      &kp BACKSPACE  &kp ENTER                             &kp COLON
             >;
@@ -85,10 +85,10 @@
 
         NUMBER+SYMBOL {
             bindings = <
-&kp EXCLAMATION       &kp DOUBLE_QUOTES      &kp HASH          &kp DOLLAR         &kp PERCENT                                        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp PLUS
-&kp AT                &kp AMPERSAND          &kp QUESTION      &kp CARET          &kp PIPE        &trans               &kp ASTERISK  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp MINUS
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp SLASH     &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &kp EQUAL
-&kp UNDERSCORE        &kp TILDE              &kp SEMICOLON     &trans             &trans          &trans               &trans        &trans                                                              &kp COLON
+&kp EXCLAMATION       &kp DOUBLE_QUOTES      &kp HASH          &kp INT_YEN        &kp PERCENT                              &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp PLUS
+&kp QUESTION          &kp AMPERSAND          &kp AT_SIGN       &kp CARET          &kp PIPE       &trans      &kp ASTERISK  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp MINUS
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &trans      &kp SLASH     &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &kp EQUAL
+&kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE    &trans             &trans         &trans      &trans        &trans                                                              &kp COLON
             >;
         };
 
