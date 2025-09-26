@@ -25,7 +25,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        redo {
+            bindings = <&kp RG(RS(Z))>;
+            key-positions = <39 34>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
