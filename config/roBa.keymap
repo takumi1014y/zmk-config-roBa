@@ -84,6 +84,8 @@
 &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans      &kp SLASH     &kp UNDERSCORE  &kp N1  &kp N2  &kp N3  &trans
 &trans   &trans   &trans   &trans   &trans   &trans      &trans        &trans                                  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
         };
 
         adobe_shortcut {
