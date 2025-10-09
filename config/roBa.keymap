@@ -96,7 +96,7 @@
 &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 SPACE  &lt 1 SPACE          &kp ENTER     &lt 4 BACKSPACE                             &kp ESCAPE
             >;
 
-            sensor-bindings = <&msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         symbol {
