@@ -123,7 +123,7 @@
 &trans   &trans   &trans   &trans   &trans   &trans      &trans        &trans                             &trans
             >;
 
-            bindings = sensor-bindings = <&alt_scroll_encoder>;
+            sensor-bindings = <&alt_scroll_encoder>;
         };
 
         adobesortcut {
