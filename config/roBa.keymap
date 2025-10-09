@@ -96,7 +96,7 @@
 &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE  &lt 2 SPACE          &kp ENTER     &lt 4 BACKSPACE                             &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         symbol {
