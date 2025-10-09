@@ -15,15 +15,6 @@
 };
 
 / {
-    sensors {
-        rotary0: rotary0 {
-            compatible = "zmk,rotary-encoder";
-            a-gpios = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-            b-gpios = <&gpio0 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-            resolution = <4>;
-        };
-    };
-
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
