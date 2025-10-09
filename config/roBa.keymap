@@ -122,7 +122,7 @@
 &trans   &trans   &trans   &trans   &trans   &trans      &trans        &trans                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(K_SCROLL_DOWN) LA(K_SCROLL_UP)>;
+            sensor-bindings = <&cmd_scroll_encoder>;
         };
 
         adobesortcut {
