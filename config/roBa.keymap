@@ -95,6 +95,8 @@
 &kp Z           &kp X      &kp C         &kp V             &lt 6 B      &mt F7 CAPSLOCK      &kp SLASH     &kp N            &kp M  &kp COMMA  &kp DOT  &kp RIGHT_COMMAND
 &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE  &lt 2 SPACE          &kp ENTER     &lt 4 BACKSPACE                             &kp ESCAPE
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         symbol {
