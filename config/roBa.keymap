@@ -84,7 +84,7 @@
            tap-ms = <20>;
         };
 
-        cmd_scroll_encoder: cmd_scroll_encoder {
+        alt_scroll_encoder: alt_scroll_encoder {
            compatible = "zmk,behavior-sensor-rotate";
            #binding-cells = <1>;
            bindings = <&inc_dec_kp LC(K_SCROLL_DOWN)>, <&inc_dec_kp LC(K_SCROLL_UP)>;
@@ -123,7 +123,7 @@
 &trans   &trans   &trans   &trans   &trans   &trans      &trans        &trans                             &trans
             >;
 
-            sensor-bindings = <&cmd_scroll_encoder>;
+            bindings = <&inc_dec_kp (LALT(KC_WH_U)) (LALT(KC_WH_D))>;
         };
 
         adobesortcut {
