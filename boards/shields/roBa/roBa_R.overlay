@@ -20,12 +20,6 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
     };
-    my_rotary_encoder: rotary_encoder_1 {
-        compatible = "zmk,rotary-encoder";
-        pin_a = <&gpio0 11 GPIO_ACTIVE_HIGH>;
-        pin_b = <&gpio0 12 GPIO_ACTIVE_HIGH>;
-        status = "okay";
-    };
 };
 
 &pinctrl {
