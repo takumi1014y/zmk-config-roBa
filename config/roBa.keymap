@@ -83,7 +83,6 @@
 
             tap-ms = <20>;
         };
-
         alt_scroll_encoder: alt_scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
             #binding-cells = <1>;
