@@ -78,17 +78,17 @@
         };
 
         scroll_encoder: scroll_encoder {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-            tap-ms = <20>;
+           compatible = "zmk,behavior-sensor-rotate";
+           #binding-cells = <0>;
+           bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+           tap-ms = <20>;
         };
 
         cmd_scroll_encoder: cmd_scroll_encoder {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&inc_dec_kp LC(K_SCROLL_DOWN)>, <&inc_dec_kp LC(K_SCROLL_UP)>;
-            tap-ms = <20>;
+           compatible = "zmk,behavior-sensor-rotate";
+           #binding-cells = <0>;
+           bindings = <&inc_dec_kp LC(K_SCROLL_DOWN)>, <&inc_dec_kp LC(K_SCROLL_UP)>;
+           tap-ms = <20>;
         };
     };
 
