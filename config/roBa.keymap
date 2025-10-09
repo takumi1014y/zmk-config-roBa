@@ -88,8 +88,8 @@
             compatible = "zmk,behavior-sensor-rotate";
             #binding-cells = <1>;
             bindings =
-                <&inc_dec_kp LA(K_SCROLL_DOWN)>,
-                <&inc_dec_kp LA(K_SCROLL_UP)>;
+                <&inc_dec_kp LALT(K_SCROLL_DOWN)>,
+                <&inc_dec_kp LALT(K_SCROLL_UP)>;
 
             tap-ms = <20>;
         };
@@ -126,7 +126,7 @@
 &trans   &trans   &trans   &trans   &trans   &trans      &trans        &trans                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(K_SCROLL_DOWN) LA(K_SCROLL_UP)>;
+            sensor-bindings = <&inc_dec_kp LALT(K_SCROLL_DOWN) LALT(K_SCROLL_UP)>;
         };
 
         adobesortcut {
