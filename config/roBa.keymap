@@ -78,13 +78,16 @@
 
         scroll_encoder: scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <1>;
             #binding-cells = <1>;
             bindings = <&inc_dec_kp K_SCROLL_DOWN>, <&inc_dec_kp K_SCROLL_UP>;
 
             tap-ms = <20>;
         };
+
         alt_scroll_encoder: alt_scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <1>;
             #binding-cells = <1>;
             bindings = <&inc_dec_kp LA(K_SCROLL_DOWN)>, <&inc_dec_kp LA(K_SCROLL_UP)>;
 
