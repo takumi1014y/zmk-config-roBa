@@ -89,7 +89,9 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <1>;
             #binding-cells = <1>;
-            bindings = <&inc_dec_kp LA(K_SCROLL_DOWN)>, <&inc_dec_kp LA(K_SCROLL_UP)>;
+            bindings =
+                <&inc_dec_kp LA(K_SCROLL_DOWN)>,
+                <&inc_dec_kp LA(K_SCROLL_UP)>;
 
             tap-ms = <20>;
         };
@@ -101,7 +103,7 @@
         default_layer {
             bindings = <
 &kp Q           &kp W      &kp E         &kp R             &kp T                                           &kp Y            &kp U  &lt 5 I    &kp O    &kp P
-&kp A           &kp S      &kp D         &kp F             &kp G        &kp TAB              &kp QUESTION  &kp H            &kp J  &kp K      &kp L    &kp SPACE
+&kp B           &kp S      &kp D         &kp F             &kp G        &kp TAB              &kp QUESTION  &kp H            &kp J  &kp K      &kp L    &kp SPACE
 &kp Z           &kp X      &kp C         &kp V             &lt 6 B      &mt F7 CAPSLOCK      &kp SLASH     &kp N            &kp M  &kp COMMA  &kp DOT  &kp RIGHT_COMMAND
 &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 SPACE  &lt 1 SPACE          &kp ENTER     &lt 4 BACKSPACE                             &kp ESCAPE
             >;
