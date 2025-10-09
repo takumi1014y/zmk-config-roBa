@@ -80,7 +80,7 @@
             #sensor-binding-cells = <0>;
             #binding-cells = <1>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-            tap-ms = <50>;
+            tap-ms = <20>;
         };
     };
 
