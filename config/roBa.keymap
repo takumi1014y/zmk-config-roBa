@@ -106,6 +106,8 @@
 &kp COLON        &kp SEMICOLON  &kp SQT    &kp DOUBLE_QUOTES  &trans       &trans      &kp SLASH     &kp UNDERSCORE  &trans    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &trans           &trans         &trans     &trans             &trans       &trans      &trans        &trans                                                                 &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
         };
 
         FUNCTION {
