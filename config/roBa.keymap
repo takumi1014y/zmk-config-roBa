@@ -117,7 +117,7 @@
 &trans   &trans   &trans   &trans   &trans   &trans                &trans        &trans                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(KP_MINUS) LG(KP_PLUS)>;
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
         };
 
         adobesortcut {
